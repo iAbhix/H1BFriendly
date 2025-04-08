@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "H1BFriendly",
+    "version": "2.1",
+    "description": "Checks if company is H1B friendly",
+    "icons": {
+        "48": "icons/jobs32.png",
+        "96": "icons/jobs96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.linkedin.com/jobs*"
+            ],
+            "js": [
+                "./sponsor.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "find"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "example@gmail.com"
+        }
+      }
+}

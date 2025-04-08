@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "en-US": "Shows if the company is H1B friendly by checking if it has sponsored visas previously"
+  },
+  "categories": [
+    "other"
+  ],
+  "version": {
+    "license": "MPL-2.0"
+  }
+}
